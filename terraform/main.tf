@@ -8,6 +8,7 @@ module "sandbox" {
     SSOUserEmail              = "gmallsh+sandbox@amazon.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
+    ProviderType              = "GitHub"
   }
 
   account_tags = {
